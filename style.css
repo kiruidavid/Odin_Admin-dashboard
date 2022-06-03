@@ -24,6 +24,7 @@ body{
     text-decoration: none; 
     color: white;
 } 
+
 .sidenav ul {
     list-style: none; 
     margin-top: 23px; 
@@ -40,7 +41,10 @@ body{
 } 
 .sidenav li i {
     margin-left: 0.2px;
-} 
+}  
+.sidenav li:hover{
+    border: 5px solid yellowgreen;
+}
 #space-between {
     margin: 4px;
 }
@@ -88,6 +92,9 @@ body{
     color: whitesmoke;
     width: 124px; 
     height: 34px;
+} 
+#buttons button:hover{
+    background-color: brown;
 }
  
 
@@ -115,7 +122,7 @@ body{
     border-radius: 4px; 
     background-color: rgb(243, 240, 240); 
     text-align: center ; 
-    box-shadow: black;
+    box-shadow: 2px 5px 4px 5px rgb(66, 68, 64);
 
 }  
 .content-card h4{
@@ -130,6 +137,9 @@ body{
     margin-right: 23px;
     margin-top: 23px;
     color: blue;
+} 
+.content-card .icons i:hover{
+    color: green;
 }
 
 #announcements-card{ 
@@ -138,7 +148,8 @@ body{
     height: 255px;
     border-radius: 4px; 
     background-color: whitesmoke; 
-    text-align: center;
+    text-align: center; 
+    box-shadow: 2px 5px 4px 5px rgb(66, 68, 64);
 } 
 #trending{ 
     margin: 34px 12px;
@@ -146,6 +157,7 @@ body{
     height: 246px;
     border-radius: 4px; 
     background-color: whitesmoke; 
+    box-shadow: 2px 5px 4px 5px rgb(66, 68, 64);
     
 } 
 #trending h3{
